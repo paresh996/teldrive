@@ -5927,7 +5927,6 @@ components:
         type: integer
         format: int32
         minimum: 1
-        maximum: 500
         default: 100
       explode: false
     FileListQuery.scope:

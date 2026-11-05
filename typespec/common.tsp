@@ -67,7 +67,6 @@ model CursorQuery {
 
   @query
   @minValue(1)
-  @maxValue(500)
   limit?: int32 = 100;
 }
 

@@ -7134,8 +7134,7 @@ func decodeListFilesParams(args [0]string, argsEscaped bool, r *http.Request) (p
 						if err := (validate.Int{
 							MinSet:        true,
 							Min:           1,
-							MaxSet:        true,
-							Max:           500,
+							MaxSet:        false,
 							MinExclusive:  false,
 							MaxExclusive:  false,
 							MultipleOfSet: false,
